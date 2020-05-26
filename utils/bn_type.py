@@ -30,7 +30,6 @@ class STRBatchNorm(nn.BatchNorm2d):
 
     def forward(self, x):
         sparseWeight = sparseFunction(self.weight, self.sparseThreshold, self.activation, self.f)
-        print(self.getSparsity(), self.sparseThreshold)
         x = F.batch_norm(
             x, self.running_mean, self.running_var, sparseWeight, sparseWeight*self.bias, self.training, self.momentum, self.eps
         )

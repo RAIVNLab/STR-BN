@@ -1,9 +1,9 @@
-# [Soft Threshold Weight Reparameterization for Learnable Sparsity](https://arxiv.org/abs/2002.03231)
-[Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/), [Sham Kakade](https://homes.cs.washington.edu/~sham/) and [Ali Farhadi](https://homes.cs.washington.edu/~ali/)
+# [Adapting Unstructured Sparsity Techniques for Structured Sparsity]()
+[Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/)
 
-This repository contains code for the CNN experiments presented in the [paper](https://arxiv.org/abs/2002.03231) along with more functionalities.
+This repository contains code for the CNN experiments presented in the [paper]() along with more functionalities.
 
-This code base is built upon the [STR](https://github.com/RAIVNLab/STR) modified for [STR-BN](https://arxiv.org/abs/2002.03231) experiments.
+This code base is built upon the [STR](https://github.com/RAIVNLab/STR) modified for [STR-BN]() experiments.
 
 ## Set Up
 0. Clone this repository.
@@ -27,7 +27,7 @@ ResNet50: ```python main.py --config configs/largescale/resnet50-dense.yaml --mu
 
 MobileNetV1: ```python main.py --config configs/largescale/mobilenetv1-dense.yaml --multigpu 0,1,2,3```
 
-### Train models with **[STR-BN](https://arxiv.org/abs/2002.03231)** on ImageNet-1K:
+### Train models with **[STR-BN]()** on ImageNet-1K:
 
 ResNet50: ```python main.py --config configs/largescale/resnet50-str-bn.yaml --multigpu 0,1,2,3```
 
@@ -44,10 +44,10 @@ The folder [`budgets`](budgets) contains the csv files containing all the non-un
 If you find this project useful in your research, please consider citing:
 
 ```
-@article{Kusupati20
-  author    = {Kusupati, Aditya and Kakade, Sham and Farhadi, Ali},
-  title     = {Soft Threshold Weight Reparameterization for Learnable Sparsity},
-  booktitle = {arXiv preprint arXiv:2002.03231},
+@article{Kusupati20a
+  author    = {Kusupati, Aditya},
+  title     = {Adapting Unstructured Sparsity Techniques for Structured Sparsity},
+  booktitle = {},
   year      = {2020},
 }
 ```

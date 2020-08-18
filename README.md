@@ -1,9 +1,9 @@
-# [Adapting Unstructured Sparsity Techniques for Structured Sparsity]()
+# [Adapting Unstructured Sparsity Techniques for Structured Sparsity](https://homes.cs.washington.edu/~kusupati/pubs/kusupati20a.pdf)
 [Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/)
 
-This repository contains code for the CNN experiments presented in the [paper]() along with more functionalities.
+This repository contains code for the CNN experiments presented in the [paper](https://homes.cs.washington.edu/~kusupati/pubs/kusupati20a.pdf) along with more functionalities.
 
-This code base is built upon the [STR](https://github.com/RAIVNLab/STR) modified for [STR-BN]() experiments.
+This code base is built upon the [STR](https://github.com/RAIVNLab/STR) modified for [STR-BN](https://homes.cs.washington.edu/~kusupati/pubs/kusupati20a.pdf).
 
 ## Set Up
 0. Clone this repository.
@@ -27,7 +27,7 @@ ResNet50: ```python main.py --config configs/largescale/resnet50-dense.yaml --mu
 
 MobileNetV1: ```python main.py --config configs/largescale/mobilenetv1-dense.yaml --multigpu 0,1,2,3```
 
-### Train models with **[STR-BN]()** on ImageNet-1K:
+### Train models with **[STR-BN](https://homes.cs.washington.edu/~kusupati/pubs/kusupati20a.pdf)** on ImageNet-1K:
 
 ResNet50: ```python main.py --config configs/largescale/resnet50-str-bn.yaml --multigpu 0,1,2,3```
 
@@ -47,7 +47,7 @@ If you find this project useful in your research, please consider citing:
 @article{Kusupati20a
   author    = {Kusupati, Aditya},
   title     = {Adapting Unstructured Sparsity Techniques for Structured Sparsity},
-  booktitle = {},
+  booktitle = {Technical Report},
   year      = {2020},
 }
 ```
